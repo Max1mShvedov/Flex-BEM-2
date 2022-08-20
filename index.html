@@ -1,0 +1,176 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Flex+BEM №2</title>
+		<!-- Адаптив -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> -->
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<header class="binary">
+			<div class="container">
+				<img src="img/logo1.png" alt="" class="binary__logo">
+				<div class="binary__subtitle">
+					Clear, smart, attractive design <br><span class="binary__subtitle_fz">for your app, logo, website</span>
+				</div>
+				<a href="#" class="binary__btn read">READ MORE</a>
+				<a href="#" class="binary__arrow"></a>
+			</div>
+		</header>
+		<nav class="menu">
+			<div class="container">
+				<div class="menu__row">
+					<a href="#" class="menu__item"><span class="menu__item_gold gold">HOME</span></a>
+					<a href="#" class="menu__item">ABOUT US</a>
+					<a href="#" class="menu__item">PORTFOLIO</a>
+					<a href="#" class="menu__item">CONTACT</a>
+				</div>
+			</div>
+		</nav>
+		<nav class="about">
+			<div class="container">
+				<h2 class="about__title title">
+					ABOUT
+				</h2>
+				<p class="about__subtitle">
+					We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. 
+					In our design process, we make sure to stay one step ahead of the latest trends,<br> 
+					never forgetting to abide by key web standards.
+				</p>
+			</div>
+		</nav>
+		<nav class="block">
+			<div class="container">
+				<div class="block__row">
+					<div class="block__column1">
+						<h3 class="block__title">WEB</h3>
+						<p class="block__subtitle">
+							We tend to deliver unique and 
+							functional design, through 
+							innovation and creativity.
+						</p>
+					</div>
+					<div class="block__column2">
+						<h3 class="block__title">IOS AND ANDROID</h3>
+						<p class="block__subtitle">
+							We seek to bring new businesses and 
+							customers closer together through valuable 
+							insights and proper targeting.
+						</p>
+					</div>
+					<div class="block__column3">
+						<h3 class="block__title">MARKETING</h3>
+						<p class="block__subtitle">
+							We’ll help you establish the right goals 
+							and build the right paths. Success depends 
+							on setting the right intention.
+						</p>
+					</div>
+				</div>	
+			</div>
+		</nav>
+		<nav class="portfolio">
+			<div class="container">
+				<h2 class="portfolio__title title">
+				PORTFOLIO
+				</h2>
+				<div class="portfolio__menu">
+					<a href="#" class="portfolio__item"><span class="portfolio__item_gold gold">ALL</span></a>
+					<a href="#" class="portfolio__item">WEB</a>
+					<a href="#" class="portfolio__item">APPS</a>
+					<a href="#" class="portfolio__item">OTHER</a>
+				</div>
+				<div class="portfolio__row">
+					<div class="portfolio__column">
+						<img src="img/back1.jpg" alt="">
+						<img src="img/back2.jpg" alt="">
+						<img src="img/back3.jpg" alt="">
+					</div>
+					<div class="portfolio__column">
+						<img src="img/back4.jpg" alt="">
+						<img src="img/back5.jpg" alt="">
+						<img src="img/back6.jpg" alt="">
+					</div>
+				</div>
+				<a href="" class="potrfolio__btn read">READ MORE</a>
+			</div>
+		</nav>
+		<nav class="our">
+			<div class="container">
+				<h3 class="our__title">Our partners</h3>
+				<div class="our__row">
+					<img src="img/our1.png" alt="">
+					<img src="img/our2.png" alt="">
+					<img src="img/our3.png" alt="">
+					<img src="img/our4.png" alt="">
+				</div>
+			</div>
+		</nav>	
+		<nav class="contact">
+			<div class="container">
+				<h2 class="contact__title title">CONTACT</h2>
+				<div class="contact__row">
+					<form action="" class="contact__form">
+					<div class="contact__item_row">
+						<div class="contact__item">
+							<p>YOUR NAME</p>
+							<input type="username" name="name" required>
+						</div>
+						<div class="contact__item">
+							<p>YOUR E-MAIL</p>
+							<input type="e-mail" name="e-mail" required>
+						</div>
+					</div>
+					<div class="contact__item">
+						<p>MESSAGE</p>
+						<textarea name="message" required></textarea>
+					</div>
+					<button type="submit">SEND</button>
+				    </form>	
+				    <div class="contact__idea">
+				    	<p class="contact__subtitle">
+				    		Have an idea for a project? Just looking to 
+							explore and see the possibilities?<br>
+							I'm here to help.
+						</p>
+						<p class="contact__name">
+							Shvedov Maxim
+						</p>
+						<div class="contact__link_row">
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+						<div class="contact__mail_row">
+							<p>e-mail:</p>
+							<a href="max1mshvedov@yandex.ru">max1mshvedov@yandex.ru</a>
+						</div>
+				    </div>
+				</div>
+			</div>
+		</nav>
+		<footer class="foot">
+			<div class="container">
+				<img src="img/logo2.png" alt="" class="foot__logo">
+				<div class="foot__row">
+					<a href="#" class="foot_item">Home</a>
+					<a href="#" class="foot_item">Facebook</a>
+					<a href="#" class="foot_item">Linkedin</a>
+					<a href="#" class="foot_item">Contact</a>
+				</div>
+				<p class="foot__copy">© 2015. All Rights Reserved</p>
+			</div>
+		</footer>
+		<div class="try">20.08.2022г</div>
+	</body>
+</html>
